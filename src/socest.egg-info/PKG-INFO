@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: socest
+Version: 1.0.0
+Summary: Li-ion state-of-charge estimation: equivalent-circuit EKF vs recurrent neural network
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy<2,>=1.26
+Requires-Dist: scipy>=1.11
+Requires-Dist: numba>=0.59
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: torch>=2.2
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: pytest-html>=4; extra == "dev"
+Requires-Dist: pdoc>=14; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: nbconvert; extra == "dev"
